@@ -1,4 +1,4 @@
 .vagrant
 hosts
-**/join-command
+kubernetes-setup/join-command
 *.log
