@@ -11,7 +11,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: result-pod
+      name: result-app-pod
   template:
     metadata:
       name: result-app-pod

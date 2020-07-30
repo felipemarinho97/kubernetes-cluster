@@ -11,7 +11,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: voting-deployment
+      name: voting-app-pod
   template:
     metadata:
       name: voting-app-pod
