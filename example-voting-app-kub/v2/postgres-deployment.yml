@@ -4,6 +4,8 @@ kind: Deployment
 
 metadata:
   name: postgres-deploy
+  labels:
+    app: demo-voting-app
 
 spec:
   replicas: 1

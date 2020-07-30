@@ -4,6 +4,8 @@ kind: Deployment
 
 metadata:
   name: result-deployment
+  labels:
+    app: demo-voting-app
 
 spec:
   replicas: 1
