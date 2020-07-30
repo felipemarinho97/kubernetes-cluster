@@ -8,9 +8,10 @@ metadata:
     app: demo-voting-app
 
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     name: result-app-pod
   ports:
     - port: 80
       targetPort: 80
+      nodePort: 30002
